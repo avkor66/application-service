@@ -1,16 +1,15 @@
-interface Movie {
-  name: string;
-  poster: string;
-}
+import express, { Request, Response } from 'express';
 
-// ----------------------------------------------
+const app = express();
+const PORT = 8080;
 
-const random = {
-  name: "Example Movie Title",
-};
+app.get('/', (req: Request, res: Response) => {
+  res.send('Hello TypeScript + Express!');
+});
+app.get('/health_check', (req: Request, res: Response) => {
+  res.status(200).json({status: 'ApplicationService Check OK'});
+});
 
-function displayMovie(movie: Movie) {
-  console.log(movie.name);
-}
-
-displayMovie(random as Movie);
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+});
