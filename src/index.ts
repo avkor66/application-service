@@ -1,12 +1,11 @@
 import express, {NextFunction, Request, Response} from "express";
-import mongoose from 'mongoose';
 import path from "path";
-import passport from 'passport'
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import {fileURLToPath} from "url";
 import {config} from "dotenv";
 import {connectDB} from "./config/db.js";
+import cartRoutes from "./routes/CartRoutes.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 config({ path: path.resolve(__dirname, '../.env') });
@@ -26,9 +25,7 @@ app.use(cookieParser());
 
 connectDB();
 
-app.get('/', (req: Request, res: Response) => {
-  res.send('Hello TypeScript + Express!');
-});
+app.use('/cart', cors(corsOptions), cartRoutes);
 app.get('/health_check', (req: Request, res: Response) => res.status(200).json({status: 'ApplicationService Check OK'}));
 
 app.listen(parseInt(PORT), '0.0.0.0', () => {
