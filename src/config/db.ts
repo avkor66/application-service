@@ -1,7 +1,8 @@
 import mongoose from "mongoose";
+import { config } from './config.js';
 
 export async function connectDB() {
-  const uri = `mongodb+srv://${process.env.APPLICATION_SERVICE_MONGO_DB_USER}:${process.env.APPLICATION_SERVICE_MONGO_DB_PASSWORD}@cluster0.ri8xy.mongodb.net/${process.env.APPLICATION_SERVICE_MONGO_DB_COLLECTION}?retryWrites=true&w=majority&appName=Cluster0`;
+  const uri = `${config.MONGO_DB_HOST}://${config.MONGO_DB_USER}:${config.MONGO_DB_PASSWORD}@cluster0.ri8xy.mongodb.net/${config.MONGO_DB_COLLECTION}?retryWrites=true&w=majority&appName=Cluster0`;
   try {
     await mongoose.connect(uri);
     console.log('Успешное подключение к MongoDB!');

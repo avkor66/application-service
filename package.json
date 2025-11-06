@@ -4,9 +4,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "node --loader ts-node/esm ./src/index.ts",
+    "dev": "NODE_ENV=development node --loader ts-node/esm ./src/index.ts",
     "build": "rimraf ./dist && tsc --build ./tsconfig.json && tsc-alias",
-    "start": "node ./dist/index.js"
+    "start": "NODE_ENV=production node ./dist/index.js"
   },
   "dependencies": {
     "cookie-parser": "^1.4.7",
