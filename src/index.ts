@@ -4,6 +4,7 @@ import cors from 'cors';
 import {connectDB} from "./config/db.js";
 import cartRoutes from "./routes/CartRoutes.js";
 import {config} from "./config/config.js";
+import productRoutes from "./routes/ProductRoutes.js";
 
 const app = express();
 const PORT = config.PORT;
@@ -20,6 +21,16 @@ app.use(cookieParser());
 
 connectDB();
 
+app.use((req, res, next) => {
+  console.log('=headers', req.headers);
+  console.log('=user', req.user)
+  console.log('=body', req.body)
+  console.log('=query', req.query)
+  next()
+});
+
+
+app.use('/products', cors(corsOptions), productRoutes)
 app.use('/cart', cors(corsOptions), cartRoutes);
 app.get('/health_check', (req: Request, res: Response) => res.status(200).json({status: 'ApplicationService Check OK'}));
 

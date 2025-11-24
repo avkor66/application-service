@@ -1,0 +1,579 @@
+{
+  "group101_164": [
+        {
+          "brand": "МН 101",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 1)",
+          "plateDimensionsMM": "100x60, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 0.6
+        },
+        {
+          "brand": "МН 102",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 2)",
+          "plateDimensionsMM": "100x80, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 0.8
+        },
+        {
+          "brand": "МН 103",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 3)",
+          "plateDimensionsMM": "100x100, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.0
+        },
+        {
+          "brand": "МН 104",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 4)",
+          "plateDimensionsMM": "120x80, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.1
+        },
+        {
+          "brand": "МН 105",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 5)",
+          "plateDimensionsMM": "120x100, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.2
+        },
+        {
+          "brand": "МН 106",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 6)",
+          "plateDimensionsMM": "120x120, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.3
+        },
+        {
+          "brand": "МН 107",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 7)",
+          "plateDimensionsMM": "140x100, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.4
+        },
+        {
+          "brand": "МН 108",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 8)",
+          "plateDimensionsMM": "140x120, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.5
+        },
+        {
+          "brand": "МН 109",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 9)",
+          "plateDimensionsMM": "140x140, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.7
+        },
+        {
+          "brand": "МН 110",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 10)",
+          "plateDimensionsMM": "160x100, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.7
+        },
+        {
+          "brand": "МН 111",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 11)",
+          "plateDimensionsMM": "160x120, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 1.9
+        },
+        {
+          "brand": "МН 112",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 12)",
+          "plateDimensionsMM": "160x140, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 2.0
+        },
+        {
+          "brand": "МН 113",
+          "drawingDesignation": "1.400-15.В1.110 (вариант 13)",
+          "plateDimensionsMM": "160x160, толщина 8",
+          "anchorSpecifications": "d10 AIII, L=300 мм",
+          "totalWeightKg": 2.2
+        },
+        {
+          "brand": "МН 114",
+          "drawingDesignation": "1.400-15.В1.111",
+          "plateDimensionsMM": "140x140, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 3.0
+        },
+        {
+          "brand": "МН 115",
+          "drawingDesignation": "1.400-15.В1.111 (вариант 2)",
+          "plateDimensionsMM": "160x160, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 3.6
+        },
+        {
+          "brand": "МН 116",
+          "drawingDesignation": "1.400-15.В1.111 (вариант 3)",
+          "plateDimensionsMM": "180x160, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 3.9
+        },
+        {
+          "brand": "МН 117",
+          "drawingDesignation": "1.400-15.В1.111 (вариант 4)",
+          "plateDimensionsMM": "180x180, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 4.1
+        },
+        {
+          "brand": "МН 118",
+          "drawingDesignation": "1.400-15.В1.111 (вариант 5)",
+          "plateDimensionsMM": "200x180, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 4.5
+        },
+        {
+          "brand": "МН 119",
+          "drawingDesignation": "1.400-15.В1.111 (вариант 6)",
+          "plateDimensionsMM": "200x200, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 4.8
+        },
+        {
+          "brand": "МН 120",
+          "drawingDesignation": "1.400-15.В1.111 (вариант 7)",
+          "plateDimensionsMM": "220x200, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 5.2
+        },
+        {
+          "brand": "МН 121",
+          "drawingDesignation": "1.400-15.В1.111 (вариант 8)",
+          "plateDimensionsMM": "220x220, толщина 10",
+          "anchorSpecifications": "d12 AIII, L=300 мм",
+          "totalWeightKg": 5.5
+        },
+        {
+          "brand": "МН 122",
+          "drawingDesignation": "1.400-15.В1.112",
+          "plateDimensionsMM": "180x180, толщина 12",
+          "anchorSpecifications": "d14 AIII, L=350 мм",
+          "totalWeightKg": 5.8
+        },
+        {
+          "brand": "МН 123",
+          "drawingDesignation": "1.400-15.В1.112 (вариант 2)",
+          "plateDimensionsMM": "200x200, толщина 12",
+          "anchorSpecifications": "d14 AIII, L=350 мм",
+          "totalWeightKg": 6.4
+        },
+        {
+          "brand": "МН 124",
+          "drawingDesignation": "1.400-15.В1.112 (вариант 3)",
+          "plateDimensionsMM": "220x200, толщина 12",
+          "anchorSpecifications": "d14 AIII, L=350 мм",
+          "totalWeightKg": 6.8
+        },
+        {
+          "brand": "МН 125",
+          "drawingDesignation": "1.400-15.В1.112 (вариант 4)",
+          "plateDimensionsMM": "220x220, толщина 12",
+          "anchorSpecifications": "d14 AIII, L=350 мм",
+          "totalWeightKg": 7.2
+        },
+        {
+          "brand": "МН 126",
+          "drawingDesignation": "1.400-15.В1.112 (вариант 5)",
+          "plateDimensionsMM": "240x220, толщина 12",
+          "anchorSpecifications": "d14 AIII, L=350 мм",
+          "totalWeightKg": 7.7
+        },
+        {
+          "brand": "МН 127",
+          "drawingDesignation": "1.400-15.В1.112 (вариант 6)",
+          "plateDimensionsMM": "240x240, толщина 12",
+          "anchorSpecifications": "d14 AIII, L=350 мм",
+          "totalWeightKg": 8.1
+        },
+        {
+          "brand": "МН 128",
+          "drawingDesignation": "1.400-15.В1.113",
+          "plateDimensionsMM": "200x200, толщина 14",
+          "anchorSpecifications": "d16 AIII, L=400 мм",
+          "totalWeightKg": 9.2
+        },
+        {
+          "brand": "МН 129",
+          "drawingDesignation": "1.400-15.В1.113 (вариант 2)",
+          "plateDimensionsMM": "220x220, толщина 14",
+          "anchorSpecifications": "d16 AIII, L=400 мм",
+          "totalWeightKg": 10.1
+        },
+        {
+          "brand": "МН 130",
+          "drawingDesignation": "1.400-15.В1.113 (вариант 3)",
+          "plateDimensionsMM": "240x240, толщина 14",
+          "anchorSpecifications": "d16 AIII, L=400 мм",
+          "totalWeightKg": 11.2
+        },
+        {
+          "brand": "МН 131",
+          "drawingDesignation": "1.400-15.В1.113 (вариант 4)",
+          "plateDimensionsMM": "260x260, толщина 14",
+          "anchorSpecifications": "d16 AIII, L=400 мм",
+          "totalWeightKg": 12.3
+        },
+        {
+          "brand": "МН 132",
+          "drawingDesignation": "1.400-15.В1.114",
+          "plateDimensionsMM": "240x240, толщина 16",
+          "anchorSpecifications": "d18 AIII, L=450 мм",
+          "totalWeightKg": 14.5
+        },
+        {
+          "brand": "МН 133",
+          "drawingDesignation": "1.400-15.В1.114 (вариант 2)",
+          "plateDimensionsMM": "260x260, толщина 16",
+          "anchorSpecifications": "d18 AIII, L=450 мм",
+          "totalWeightKg": 15.8
+        },
+        {
+          "brand": "МН 134",
+          "drawingDesignation": "1.400-15.В1.114 (вариант 3)",
+          "plateDimensionsMM": "280x280, толщина 16",
+          "anchorSpecifications": "d18 AIII, L=450 мм",
+          "totalWeightKg": 17.3
+        },
+        {
+          "brand": "МН 135",
+          "drawingDesignation": "1.400-15.В1.114 (вариант 4)",
+          "plateDimensionsMM": "300x300, толщина 16",
+          "anchorSpecifications": "d18 AIII, L=450 мм",
+          "totalWeightKg": 18.9
+        },
+        {
+          "brand": "МН 136",
+          "drawingDesignation": "1.400-15.В1.115",
+          "plateDimensionsMM": "280x280, толщина 18",
+          "anchorSpecifications": "d20 AIII, L=500 мм",
+          "totalWeightKg": 22.0
+        },
+        {
+          "brand": "МН 137",
+          "drawingDesignation": "1.400-15.В1.115 (вариант 2)",
+          "plateDimensionsMM": "300x300, толщина 18",
+          "anchorSpecifications": "d20 AIII, L=500 мм",
+          "totalWeightKg": 23.8
+        },
+        {
+          "brand": "МН 138",
+          "drawingDesignation": "1.400-15.В1.115 (вариант 3)",
+          "plateDimensionsMM": "320x320, толщина 18",
+          "anchorSpecifications": "d20 AIII, L=500 мм",
+          "totalWeightKg": 25.8
+        },
+        {
+          "brand": "МН 139",
+          "drawingDesignation": "1.400-15.В1.115 (вариант 4)",
+          "plateDimensionsMM": "340x340, толщина 18",
+          "anchorSpecifications": "d20 AIII, L=500 мм",
+          "totalWeightKg": 27.9
+        },
+        {
+          "brand": "МН 140",
+          "drawingDesignation": "1.400-15.В1.116",
+          "plateDimensionsMM": "300x300, толщина 20",
+          "anchorSpecifications": "d22 AIII, L=550 мм",
+          "totalWeightKg": 33.1
+        },
+        {
+          "brand": "МН 141",
+          "drawingDesignation": "1.400-15.В1.116 (вариант 2)",
+          "plateDimensionsMM": "320x320, толщина 20",
+          "anchorSpecifications": "d22 AIII, L=550 мм",
+          "totalWeightKg": 35.8
+        },
+        {
+          "brand": "МН 142",
+          "drawingDesignation": "1.400-15.В1.116 (вариант 3)",
+          "plateDimensionsMM": "340x340, толщина 20",
+          "anchorSpecifications": "d22 AIII, L=550 мм",
+          "totalWeightKg": 38.6
+        },
+        {
+          "brand": "МН 143",
+          "drawingDesignation": "1.400-15.В1.116 (вариант 4)",
+          "plateDimensionsMM": "360x360, толщина 20",
+          "anchorSpecifications": "d22 AIII, L=550 мм",
+          "totalWeightKg": 41.5
+        },
+        {
+          "brand": "МН 144",
+          "drawingDesignation": "1.400-15.В1.117",
+          "plateDimensionsMM": "320x320, толщина 22",
+          "anchorSpecifications": "d25 AIII, L=600 мм",
+          "totalWeightKg": 47.1
+        },
+        {
+          "brand": "МН 145",
+          "drawingDesignation": "1.400-15.В1.117 (вариант 2)",
+          "plateDimensionsMM": "340x340, толщина 22",
+          "anchorSpecifications": "d25 AIII, L=600 мм",
+          "totalWeightKg": 50.4
+        },
+        {
+          "brand": "МН 146",
+          "drawingDesignation": "1.400-15.В1.117 (вариант 3)",
+          "plateDimensionsMM": "360x360, толщина 22",
+          "anchorSpecifications": "d25 AIII, L=600 мм",
+          "totalWeightKg": 53.8
+        },
+        {
+          "brand": "МН 147",
+          "drawingDesignation": "1.400-15.В1.117 (вариант 4)",
+          "plateDimensionsMM": "380x380, толщина 22",
+          "anchorSpecifications": "d25 AIII, L=600 мм",
+          "totalWeightKg": 57.3
+        },
+        {
+          "brand": "МН 148",
+          "drawingDesignation": "1.400-15.В1.117 (вариант 5)",
+          "plateDimensionsMM": "400x400, толщина 22",
+          "anchorSpecifications": "d25 AIII, L=600 мм",
+          "totalWeightKg": 61.0
+        },
+        {
+          "brand": "МН 149",
+          "drawingDesignation": "1.400-15.В1.118 (вариант 1)",
+          "plateDimensionsMM": "340x340, толщина 25",
+          "anchorSpecifications": "d28 AIII, L=650 мм",
+          "totalWeightKg": 72.0
+        },
+        {
+          "brand": "МН 150",
+          "drawingDesignation": "1.400-15.В1.118 (вариант 2)",
+          "plateDimensionsMM": "360x360, толщина 25",
+          "anchorSpecifications": "d28 AIII, L=650 мм",
+          "totalWeightKg": 76.5
+        },
+        {
+          "brand": "МН 151",
+          "drawingDesignation": "1.400-15.В1.118 (вариант 3)",
+          "plateDimensionsMM": "380x380, толщина 25",
+          "anchorSpecifications": "d28 AIII, L=650 мм",
+          "totalWeightKg": 81.0
+        },
+        {
+          "brand": "МН 152",
+          "drawingDesignation": "1.400-15.В1.118 (вариант 4)",
+          "plateDimensionsMM": "400x400, толщина 25",
+          "anchorSpecifications": "d28 AIII, L=650 мм",
+          "totalWeightKg": 85.8
+        },
+        {
+          "brand": "МН 153",
+          "drawingDesignation": "1.400-15.В1.119 (вариант 1)",
+          "plateDimensionsMM": "360x360, толщина 28",
+          "anchorSpecifications": "d32 AIII, L=700 мм",
+          "totalWeightKg": 105.0
+        },
+        {
+          "brand": "МН 154",
+          "drawingDesignation": "1.400-15.В1.119 (вариант 2)",
+          "plateDimensionsMM": "380x380, толщина 28",
+          "anchorSpecifications": "d32 AIII, L=700 мм",
+          "totalWeightKg": 110.0
+        },
+        {
+          "brand": "МН 155",
+          "drawingDesignation": "1.400-15.В1.119 (вариант 3)",
+          "plateDimensionsMM": "400x400, толщина 28",
+          "anchorSpecifications": "d32 AIII, L=700 мм",
+          "totalWeightKg": 116.0
+        },
+        {
+          "brand": "МН 156",
+          "drawingDesignation": "1.400-15.В1.120 (вариант 1)",
+          "plateDimensionsMM": "380x380, толщина 32",
+          "anchorSpecifications": "d36 AIII, L=750 мм",
+          "totalWeightKg": 140.0
+        },
+        {
+          "brand": "МН 157",
+          "drawingDesignation": "1.400-15.В1.120 (вариант 2)",
+          "plateDimensionsMM": "400x400, толщина 32",
+          "anchorSpecifications": "d36 AIII, L=750 мм",
+          "totalWeightKg": 146.0
+        },
+        {
+          "brand": "МН 158",
+          "drawingDesignation": "1.400-15.В1.120 (вариант 3)",
+          "plateDimensionsMM": "420x420, толщина 32",
+          "anchorSpecifications": "d36 AIII, L=750 мм",
+          "totalWeightKg": 153.0
+        },
+        {
+          "brand": "МН 159",
+          "drawingDesignation": "1.400-15.В1.121 (вариант 1)",
+          "plateDimensionsMM": "400x400, толщина 36",
+          "anchorSpecifications": "d40 AIII, L=800 мм",
+          "totalWeightKg": 185.0
+        },
+        {
+          "brand": "МН 160",
+          "drawingDesignation": "1.400-15.В1.121 (вариант 2)",
+          "plateDimensionsMM": "420x420, толщина 36",
+          "anchorSpecifications": "d40 AIII, L=800 мм",
+          "totalWeightKg": 194.0
+        },
+        {
+          "brand": "МН 161",
+          "drawingDesignation": "1.400-15.В1.121 (вариант 3)",
+          "plateDimensionsMM": "450x450, толщина 36",
+          "anchorSpecifications": "d40 AIII, L=800 мм",
+          "totalWeightKg": 208.0
+        },
+        {
+          "brand": "МН 162",
+          "drawingDesignation": "1.400-15.В1.121 (вариант 4)",
+          "plateDimensionsMM": "500x500, толщина 36",
+          "anchorSpecifications": "d40 AIII, L=800 мм",
+          "totalWeightKg": 232.0
+        },
+        {
+          "brand": "МН 163",
+          "drawingDesignation": "1.400-15.В1.121 (вариант 5)",
+          "plateDimensionsMM": "550x550, толщина 36",
+          "anchorSpecifications": "d40 AIII, L=800 мм",
+          "totalWeightKg": 258.0
+        },
+        {
+          "brand": "МН 164",
+          "drawingDesignation": "1.400-15.В1.121 (вариант 6)",
+          "plateDimensionsMM": "600x600, толщина 36",
+          "anchorSpecifications": "d40 AIII, L=800 мм",
+          "totalWeightKg": 286.0
+        }
+  ],
+  "group201_228": [],
+  "group301_323": [],
+  "group401_418": [],
+  "group501_571": [],
+  "group601_617": [
+        {
+          "brand": "МН 601",
+          "drawingDesignation": "1.400-15.В1.610",
+          "plateDimensionsMM": "200x8",
+          "анкера": "ф12AIII (l=200мм), ф10AIII (l=140мм)",
+          "totalWeightKg": 11.5
+        },
+        {
+          "brand": "МН 602",
+          "drawingDesignation": "1.400-15.В1.610-01",
+          "plateDimensionsMM": "200x8",
+          "анкера": "ф12AIII (l=300мм), ф10AIII (l=140мм)",
+          "totalWeightKg": 11.8
+        },
+        {
+          "brand": "МН 603",
+          "drawingDesignation": "1.400-15.В1.610-02",
+          "plateDimensionsMM": "250x8",
+          "анкера": "ф12AIII (l=300мм), ф10AIII (l=170мм)",
+          "totalWeightKg": 12.1
+        },
+        {
+          "brand": "МН 604",
+          "drawingDesignation": "1.400-15.В1.610-03",
+          "plateDimensionsMM": "250x8",
+          "анкера": "ф12AIII (l=400мм), ф10AIII (l=170мм)",
+          "totalWeightKg": 12.5
+        },
+        {
+          "brand": "МН 605",
+          "drawingDesignation": "1.400-15.В1.550-04",
+          "plateDimensionsMM": "250x10",
+          "анкера": "ф16AIII (l=250мм), ф12AIII (l=180мм)",
+          "totalWeightKg": 16.7
+        },
+        {
+          "brand": "МН 606",
+          "drawingDesignation": "1.400-15.В1.610-05",
+          "plateDimensionsMM": "300x8",
+          "анкера": "ф12AIII (l=400мм), ф10AIII (l=180мм)",
+          "totalWeightKg": 16.8
+        },
+        {
+          "brand": "МН 607",
+          "drawingDesignation": "1.400-15.В1.610-06",
+          "plateDimensionsMM": "300x8",
+          "анкера": "ф14AIII (l=400мм), ф10AIII (l=180мм)",
+          "totalWeightKg": 17.5
+        },
+        {
+          "brand": "МН 608",
+          "drawingDesignation": "1.400-15.В1.610-07",
+          "plateDimensionsMM": "300x8",
+          "анкера": "ф16AIII (l=400мм), ф10AIII (l=180мм)",
+          "totalWeightKg": 18.2
+        },
+        {
+          "brand": "МН 609",
+          "drawingDesignation": "1.400-15.В1.610-08",
+          "plateDimensionsMM": "300x8",
+          "анкера": "ф18AIII (l=400мм), ф10AIII (l=180мм)",
+          "totalWeightKg": 19.3
+        },
+        {
+          "brand": "МН 610",
+          "drawingDesignation": "1.400-15.В1.610",
+          "plateDimensionsMM": "250x300x8",
+          "анкера": "(2+2)ф12AIII, (4+4)ф10AIII",
+          "totalWeightKg": 11.5
+        },
+        {
+          "brand": "МН 611",
+          "drawingDesignation": "1.400-15.В1.610-10",
+          "plateDimensionsMM": "300x10",
+          "анкера": "ф16AIII (l=420мм), ф12AIII (l=200мм)",
+          "totalWeightKg": 21.6
+        },
+        {
+          "brand": "МН 612",
+          "drawingDesignation": "1.400-15.В1.610-11",
+          "plateDimensionsMM": "400x10",
+          "анкера": "ф16AIII (l=420мм), ф12AIII (l=200мм)",
+          "totalWeightKg": 27.5
+        },
+        {
+          "brand": "МН 613",
+          "drawingDesignation": "1.400-15.В1.610-12",
+          "plateDimensionsMM": "400x10",
+          "анкера": "ф18AIII (l=420мм), ф12AIII (l=200мм)",
+          "totalWeightKg": 29.5
+        },
+        {
+          "brand": "МН 614",
+          "drawingDesignation": "1.400-15.В1.610-13",
+          "plateDimensionsMM": "400x10",
+          "анкера": "ф20AIII (l=420мм), ф12AIII (l=200мм)",
+          "totalWeightKg": 31.8
+        },
+        {
+          "brand": "МН 615",
+          "drawingDesignation": "1.400-15.В1.610-14",
+          "plateDimensionsMM": "400x12",
+          "анкера": "ф20AIII (l=420мм), ф12AIII (l=200мм)",
+          "totalWeightKg": 33.5
+        },
+        {
+          "brand": "МН 616",
+          "drawingDesignation": "1.400-15.В1.610-15",
+          "plateDimensionsMM": "400x12",
+          "анкера": "ф22AIII (l=420мм), ф12AIII (l=200мм)",
+          "totalWeightKg": 36.5
+        },
+        {
+          "brand": "МН 617",
+          "drawingDesignation": "1.400-15.В1.610-16",
+          "plateDimensionsMM": "400x12",
+          "анкера": "ф25AIII (l=420мм), ф12AIII (l=200мм)",
+          "totalWeightKg": 40.5
+        }
+  ],
+  "group701_795": [],
+  "group801_834": []
+}

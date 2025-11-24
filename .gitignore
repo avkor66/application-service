@@ -1,10 +1,4 @@
-node_modules/
-npm-debug.log
-
 tmp/
-coverage/
-
-dist/
 !.vscode/
 
 # =========================
@@ -20,6 +14,7 @@ dist/
 Network Trash Folder
 Temporary Items
 .apdisk
+Thumbs.db
 
 # =========================
 # Node.js / npm / yarn
@@ -67,7 +62,6 @@ out/
 *.iml
 *.iws
 *.ipr
-out/
 production/
 
 # =========================
@@ -93,9 +87,3 @@ compose.override.yml
 # Покрытие кода (если используется)
 coverage/
 .nyc_output/
-
-# =========================
-# Misc
-# =========================
-.DS_Store
-Thumbs.db

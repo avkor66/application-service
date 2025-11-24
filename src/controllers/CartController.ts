@@ -7,16 +7,18 @@ export class CartController {
   static async createCart(req: Request, res: Response) {
     try {
       if (req.body) req.body.userMeta.ip = req.headers['x-forwarded-for']?.toString().split(',')[0] || req.socket.remoteAddress
-      const cart = req.body as ICart;
-      const newCart = await CartService.createCart(cart);
-      if (newCart) {
+      const carts = req.body as ICart;
+      const newCart = await CartService.createCart(carts);
+
+      console.log(newCart);
+      for (const newCartElement of newCart.cart) {
         await fetch(process.env.COST_CALCULATION_SERVICE_HOST +'/calculation/calculate', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ cartId: newCart._id, ...cart.cart })
+          body: JSON.stringify({ cartId: newCart._id, ...newCartElement })
         })
-        return res.status(201).json({ success: true, message: 'Cart created and calculation started' })
-      } else return res.status(404).json({ success: false, message: 'Unknown error' })
+      }
+      return res.status(201).json({ success: true, message: 'Cart created and calculation started' })
     } catch (error) { res.status(400).json(error instanceof Error ? { error: error.message } : { error: 'Unknown error' })}
   }
 

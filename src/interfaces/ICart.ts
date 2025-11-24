@@ -3,17 +3,7 @@ export interface ICart {
   sessionId: string,
   device: string,
   status: string,
-  cart: {
-    height: number,
-    outerDiameter: number,
-    innerDiameter: number,
-    species: string,
-    stateStandard: string,
-    diameter: string,
-    length: string,
-    threadLength: string,
-    steelGrade: string,
-  },
+  cart: Cart[],
   contact: {
     name: string,
     phone: string,
@@ -26,6 +16,19 @@ export interface ICart {
     createdAt: Date
   }
 }
+
+interface Cart {
+  height: number,
+  outerDiameter: number,
+  innerDiameter: number,
+  species: string,
+  stateStandard: string,
+  diameter: string,
+  length: string,
+  threadLength: string,
+  steelGrade: string,
+}
+
 
 export interface ICartUpdate {
   cart: {
