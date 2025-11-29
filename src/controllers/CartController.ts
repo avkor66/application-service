@@ -24,6 +24,8 @@ export class CartController {
 
   static async getAllCarts(req: Request, res: Response) {
     try {
+      console.log('getAllCarts called');
+      console.log(req.params);
       const carts = await CartService.getAllCarts();
       if (!carts) return res.status(404).json({ error: 'Carts not found' })
       res.status(200).json(carts)
@@ -32,9 +34,13 @@ export class CartController {
 
   static async getCart(req: Request, res: Response) {
     try {
-      const cart = await CartService.findById(req.params.id);
-      if (!cart) return res.status(404).json({ error: 'Cart not found' })
-      res.status(200).json(cart)
+      console.log('getCart called');
+      console.log(req.query);
+
+      const carts: ICart[] = await CartService.getAllCarts();
+      const newCart = carts.filter(cart => cart.contact.email === req.query.email);
+      if (!newCart) return res.status(404).json({ error: 'Cart not found' })
+      res.status(200).json(newCart)
     } catch (error) { res.status(400).json(error instanceof Error ? { error: error.message } : { error: 'Unknown error' })}
   }
 

@@ -3,8 +3,9 @@ import { ICart, ICartUpdate } from "../interfaces/ICart.js";
 
 export class CartService {
   static async createCart(cartData: ICart) {
-    const cart = new Cart(cartData);
     try {
+      const cart = new Cart(cartData);
+      console.log(cart);
       const saved = await cart.save();
       return saved;
     } catch (error: any) {

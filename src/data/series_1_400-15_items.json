@@ -509,7 +509,8 @@
           "drawingDesignation": "1.400-15.В1.121 (вариант 6)",
           "plateDimensionsMM": "600x600, толщина 36",
           "anchorSpecifications": "d40 AIII, L=800 мм",
-          "totalWeightKg": 286.0
+          "totalWeightKg": 286.0,
+          "images": "assets/images/embedded/mn163-164_1m-300x240.jpg"
         }
   ],
   "group201_228": [],
