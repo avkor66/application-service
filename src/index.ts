@@ -1,8 +1,9 @@
-import express, {NextFunction, Request, Response} from "express";
+import express, {Request, Response} from "express";
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import {connectDB} from "./config/db.js";
 import cartRoutes from "./routes/CartRoutes.js";
+import orderRoutes from "./routes/OrderRoutes.js";
 import {config} from "./config/config.js";
 import productRoutes from "./routes/ProductRoutes.js";
 
@@ -22,7 +23,7 @@ app.use(cookieParser());
 connectDB();
 
 app.use((req, res, next) => {
-  console.log('=headers', req.headers);
+  // console.log('=headers', req.headers);
   console.log('=user', req.user)
   console.log('=body', req.body)
   console.log('=query', req.query)
@@ -32,6 +33,7 @@ app.use((req, res, next) => {
 
 app.use('/products', cors(corsOptions), productRoutes)
 app.use('/cart', cors(corsOptions), cartRoutes);
+app.use('/order', cors(corsOptions), orderRoutes);
 app.get('/health_check', (req: Request, res: Response) => res.status(200).json({status: 'ApplicationService Check OK'}));
 
 app.listen(parseInt(PORT), '0.0.0.0', () => {
