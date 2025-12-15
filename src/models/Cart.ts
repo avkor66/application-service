@@ -5,25 +5,8 @@ const CartSchema = new Schema<ICart>({
   guestId: { type: String, required: [true, "GuestId required"], trim: true, maxlength: 55 },
   sessionId: { type: String, required: [true, "SessionId required"], trim: true, maxlength: 55 },
   device: { type: String, trim: true, maxlength: 15 },
-  status: { type: String, trim: true, maxlength: 15 },
-  cart: [
-    {
-      height: Number,
-      outerDiameter: Number,
-      innerDiameter: Number,
-      species: { type: String, required: true, trim: true, maxlength: 15 },
-      stateStandard: { type: String, trim: true, maxlength: 55 },
-      diameter: { type: String, trim: true, maxlength: 10 },
-      length: { type: String, trim: true, maxlength: 15 },
-      threadLength: { type: String, trim: true, maxlength: 15 },
-      steelGrade: { type: String, trim: true, maxlength: 25 },
-      execution: { type: String, trim: true, maxlength: 15 },
-      quantity: Number,
-      delivery: Boolean,
-      volume: Number,
-      comment: { type: String, trim: true, maxlength: 255 }
-    }
-  ],
+  comment: { type: String, trim: true, maxlength: 255 },
+  files: [{ type: String }],
   contact: {
     name: { type: String, trim: true, maxlength: 55 },
     phone: { type: String, trim: true, maxlength: 55 },

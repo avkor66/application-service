@@ -24,9 +24,9 @@ connectDB();
 
 app.use((req, res, next) => {
   // console.log('=headers', req.headers);
-  console.log('=user', req.user)
-  console.log('=body', req.body)
-  console.log('=query', req.query)
+  // console.log('=user', req.user)
+  // console.log('=body', req.body)
+  // console.log('=query', req.query)
   next()
 });
 

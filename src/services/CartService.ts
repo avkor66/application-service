@@ -1,5 +1,5 @@
 import { Cart } from '../models/Cart.js';
-import { ICart, ICartUpdate } from "../interfaces/ICart.js";
+import { ICart, IOrderUpdate } from "../interfaces/ICart.js";
 
 export class CartService {
   static async createCart(cartData: ICart) {
@@ -23,7 +23,7 @@ export class CartService {
   static async getAllCarts() {
     return await Cart.find();
   }
-  static async updateCart(id: string, updateCartData: ICartUpdate) {
+  static async updateCart(id: string, updateCartData: IOrderUpdate) {
       return await Cart.findByIdAndUpdate(id, updateCartData, {new: true, runValidators: false});
   }
   static async deleteCart(id: string) {
