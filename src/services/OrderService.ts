@@ -18,8 +18,21 @@ export class OrderService {
   }
   static async getOrder(cartId: string) {
     try {
-      const order: IOrder[] = await Order.find({cartId});
+      const order: IOrder[] = await Order.find({cartId: cartId});
       return order;
+    } catch (error: any) {
+      console.error('Mongoose save error:', error);
+      if (error.name === 'ValidationError') {
+        const messages = Object.values(error.errors).map((e: any) => e.message);
+        console.error('Validation errors:', messages);
+      }
+      throw error;
+    }
+  }
+  static async getOrderCount(cartId: string) {
+    try {
+      const countOrder: number = await Order.countDocuments({cartId});
+      return countOrder;
     } catch (error: any) {
       console.error('Mongoose save error:', error);
       if (error.name === 'ValidationError') {

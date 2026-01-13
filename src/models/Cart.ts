@@ -24,6 +24,13 @@ const CartSchema = new Schema<ICart>({
   toObject: { virtuals: true }
 })
 
+CartSchema.virtual('orders', {
+  ref: 'Order',           // Имя целевой модели (Cart)
+  localField: '_id',     // Поле в текущей модели (User), которое будет использоваться для поиска (это _id пользователя)
+  foreignField: 'cartId',// Поле в целевой модели (Cart), которое содержит ссылку на User (это userId)
+  justOne: false         // Указываем, что один User может иметь много Cart (многие корзины)
+});
+
 CartSchema.methods.toJSON = function() {
   const cart = this.toObject();
   delete cart.__v;

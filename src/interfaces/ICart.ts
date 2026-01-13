@@ -12,9 +12,19 @@ export interface ICart {
   userMeta: {
     ip: string,
     userAgent: string,
-    referer: string,
-    createdAt: Date
+    referer: string
   }
+}
+export interface ICartMongoDB extends ICart {
+  created_at: Date;
+  updated_at: Date;
+  _id: string;
+  __v: number;
+  id: string;
+}
+
+export interface ICartMongoDBCount extends ICartMongoDB {
+  ordersCount: number
 }
 
 export interface IOrder {
